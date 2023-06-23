@@ -1,0 +1,17 @@
+@import url(../../styles/variables.css);
+
+.pre-header-row {
+    background: var(--color-black2);
+    height: 24px;
+    width: 100%;
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
