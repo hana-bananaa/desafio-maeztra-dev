@@ -1,0 +1,248 @@
+@import url(../../styles/variables.css);
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.header {
+	background-color: white;
+}
+
+.search {
+	background-color: var(--yellow-button);  
+	color: white;
+	width: 119px;
+    height: 40px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.header__top {
+	background-color: #000;
+	color: white;
+	font-size: 12px;
+	margin-bottom: 30px;
+	padding: 3px;
+	text-align: center;
+}
+
+.header__header {    
+    width: 88vw;
+    max-width: 1562px;
+	align-items: center;
+	display: flex;
+    margin-top: 24px;
+	margin-bottom: 20px !important;
+	justify-content: space-between;
+}
+
+.header__header .icon-search {
+	align-items: center;
+	display: flex;
+	gap: 60px;
+	width: 55%;
+}
+
+@media screen and (max-width: 768px) {
+	.header__header .icon-search {
+		gap: 20px;
+	}
+}
+
+.header__header form {
+	position: relative;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.header__header form.show {
+		display: block;
+	}
+}
+
+.header__header form label {
+	border-width: 0;
+	clip: rect(0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.header__header form input {
+	background-color: #F2F2F2;
+	border: none;
+	border-radius: 7px;
+	color: #333;
+	padding: 10px;
+	width: 100%;
+}
+
+.header__header form .search {
+	right:-24px;
+    bottom: 0;
+	position: absolute;
+	width: 25%;
+}
+
+.header__header .menu-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header__header .menu-mobile {
+		display: block;
+		cursor: pointer;
+	}
+    .searchForm{
+        display: none;
+    }
+}
+
+.header__header .right-options {
+	align-items: center;
+	display: flex;
+	gap: 30px;
+}
+
+.header__header .option {
+	align-items: center;
+	display: flex;
+	gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__header .option {
+		display: none;
+	}
+}
+
+.header__header .option:nth-child(4) {
+	border: 1px solid #faa500;
+	border-radius: 7px;
+	padding: 9px;
+    max-height: 46px;
+}
+
+.header__header .option:hover {
+	color: #faa500;
+}
+
+.header__header .options-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header__header .options-mobile {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+}
+
+.header__header .options-mobile .close-search {
+	display: none;
+	width: 80%;
+}
+
+.header__nav-bar {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: -999px;
+	z-index: 2;
+	transition: ease .5s left;
+}
+
+@media screen and (max-width: 768px) {
+	.header__nav-bar.show {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		left: 0;
+	}
+}
+
+.header__nav-bar .links-container {
+	align-items: center;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1071px) {
+	.header__nav-bar .links-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header__nav-bar .links-container {
+		gap: 30px;
+		padding: 0;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.header__nav-bar .links-container .links {
+	font-size: 14px;
+	font-weight: 600;
+	list-style: none;
+	padding: 0 40px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__nav-bar .links-container .links {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.header__nav-bar .links-container .links:first-child {
+		padding: 0 30px;
+	}
+}
+
+.header__nav-bar .links-container .links:nth-child(1) {
+	align-items: center;
+	display: flex;
+	gap: 6px;
+}
+
+.header__nav-bar .links-container .links a {
+	color: #333;
+	text-decoration: none;
+}
+
+.header__nav-bar .links-container .links a:hover {
+	color:#faa500;
+}
+
+.header__nav-bar .menu-close {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header__nav-bar .menu-close {
+		position: absolute;
+		top: 4%;
+		left: 4%;
+		cursor: pointer;
+		display: block;
+	}
+}
+
+.header__line {
+	background-color: #F2F2F2;
+	height: 3px;
+	width: 100%;
+}

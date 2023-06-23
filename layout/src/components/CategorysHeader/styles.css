@@ -1,0 +1,70 @@
+@import url(../../styles/variables.css);
+
+@media screen and (max-width: 768px) {
+	.thirdRow {
+		display: none !important;
+	}
+}
+.containerCatoryHeader{
+    display: flex;
+    flex-direction:row;
+    width: 88vw;
+    align-items: center;
+	max-width: 1562px;
+	justify-content: space-evenly;
+}
+
+.menuItemGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-black2);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.menuItemGroup img {
+    margin-right: 8px;
+}
+
+.menuItemGroup p {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.thirdRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin: 0 auto;
+    color: var(--color-black2);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.thirdRow a {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.thirdRow a p {
+    border-bottom: 2px solid transparent;
+    transition: 0.6s all ease-in;
+}
+
+.thirdRow a:hover p {
+    border-bottom: 2px solid var(--yellow-button);
+}
+
+.novidades {
+    color: var(--yellow-button);
+}
