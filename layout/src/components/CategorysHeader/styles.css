@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     color: var(--color-black2);
-    font-family: var(--font-family);
+    font-family:'Titillium Web', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -43,7 +43,7 @@
     height: 48px;
     margin: 0 auto;
     color: var(--color-black2);
-    font-family: var(--font-family);
+    font-family: 'Titillium Web', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

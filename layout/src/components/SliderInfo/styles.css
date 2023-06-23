@@ -1,0 +1,80 @@
+@import url(../../styles/variables.css);
+
+.features-maeztra-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.features-maeztra-title h2{
+      display: flex;
+      width: 80vw;
+      max-width: 1562px;
+      align-items: center;
+      justify-content: center;
+      font-family:'Titillium Web', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .iconsFeaturesSlider{
+      width: 32px !important;
+      height: 32px !important;
+      padding-right:30px;
+    }
+
+    .feature{
+      display: flex !important;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      max-width: 308px;
+      max-height: 64px;
+      background-color: #EFEFEF;
+      border-radius: 4px;
+    }
+    .features-maeztra-container{
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+    }
+
+    .features-maeztra-container .slick-initialized{
+      width: 88vw;
+    }
+    .FaeatureH3{
+      font-size: 14px;
+      margin-bottom: 4px;
+      font-weight: 700;
+    }
+    .FaeatureParagraph{
+      margin-top: 0;
+      font-size: 12px;
+    }
+    .features-mobile-container{
+      display: none;
+    }
+
+    @media screen and (max-width: 1025px) {
+    .features-maeztra-container{
+        display: none;
+      }
+    .features-mobile-container{
+      display: block;
+    }
+    .feature{
+      display: flex !important;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      max-width: 308px;
+      min-width: 88vw;
+      max-height: 64px;
+      background-color: #EFEFEF;
+      border-radius: 4px;
+    }
+    .containerFeatMob{
+      display: flex !important;
+      width: 100% !important;
+      justify-content: center;
+    }
+  }
