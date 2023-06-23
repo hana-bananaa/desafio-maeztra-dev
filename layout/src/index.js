@@ -6,6 +6,8 @@ import Header from "../src/components/Header/Header";
 import CategoryHeader from "../src/components/CategorysHeader/CategoryHeader";
 import  SliderBanner from "../src/components/SliderBanner/SliderBanner"
 import FeatureSlider from "../src/components/SliderInfo/SliderInfo"
+import SliderLogo from './components/SliderLogos/SliderLogos';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,5 +16,6 @@ root.render(
     <CategoryHeader/>
     <SliderBanner/>
     <FeatureSlider/>
+    <SliderLogo/>
   </React.StrictMode>
 )

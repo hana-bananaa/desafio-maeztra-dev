@@ -1,11 +1,11 @@
 @import url(../../styles/variables.css);
 
-.features-maeztra-title{
+.logoss-maeztra-title{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.features-maeztra-title h2{
+.logoss-maeztra-title h2{
       display: flex;
       width: 80vw;
       max-width: 1562px;
@@ -16,13 +16,13 @@
       font-weight: 700;
     }
 
-    .iconsFeaturesSlider{
+    .iconslogossSlider{
       width: 32px !important;
       height: 32px !important;
       padding-right:30px;
     }
 
-    .feature{
+    .logos{
       display: flex !important;
       flex-direction: row;
       align-items: center;
@@ -33,7 +33,7 @@
       border-radius: 4px;
       transition: ease-in 0.3s;
     }
-    .feature:hover{
+    .logos:hover{
       display: flex !important;
       flex-direction: row;
       align-items: center;
@@ -43,13 +43,13 @@
       background-color: #d4d4d4;
       border-radius: 4px;
     }
-    .features-maeztra-container{
+    .logoss-maeztra-container{
       display: flex;
       width: 100vw;
       justify-content: center;
     }
 
-    .features-maeztra-container .slick-initialized{
+    .logoss-maeztra-container .slick-initialized{
       width: 88vw;
     }
     .FaeatureH3{
@@ -61,18 +61,18 @@
       margin-top: 0;
       font-size: 12px;
     }
-    .features-mobile-container{
+    .logoss-mobile-container{
       display: none;
     }
 
     @media screen and (max-width: 1025px) {
-    .features-maeztra-container{
+    .logoss-maeztra-container{
         display: none;
       }
-    .features-mobile-container{
+    .logoss-mobile-container{
       display: block;
     }
-    .feature{
+    .logos{
       display: flex !important;
       flex-direction: row;
       align-items: center;

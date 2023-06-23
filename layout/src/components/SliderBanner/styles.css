@@ -94,19 +94,6 @@
     bottom: 24px;
 }
 
-.slider-dots .sliderDot {
-    background: transparent;
-    border: 1px solid $yellow-button;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    margin: 0 8px;
-}
-
-.slider-dots .sliderDotactive {
-    background: $yellow-button;
-}
-
 .bannerSlide{
     width: 100vw;
 }
@@ -126,7 +113,7 @@
     opacity: .75;
     color: rgb(255, 187, 0);
 }
-..slick-next {
+.slick-next {
     right: 38px;
   }
 .slick-dots li.slick-active button::before {
