@@ -121,9 +121,7 @@ const SliderShelf = () => {
       >
             {features.map((feature, index) => (
               <div className="SliderShelf-container" key={index}>
-                 <div className="complementShelfSlider">
                 <img src={feature.image} alt={feature.title} className='imgShelSlider' />
-                </div>
                 <div className="complementShelfSlider">
                   <div class="colorsShelfSlider">
                     <div class={feature.color1}></div>

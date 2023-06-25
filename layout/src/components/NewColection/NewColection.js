@@ -27,6 +27,19 @@ const NewColection = () => {
             ))}
         </div>
       </section>
+      <section>
+        <div className="colection-mobile-container">
+            {features.map((feature, index) => (
+              <div className="featureNewColection" key={index}>
+                <div className="complementNewColection">
+                  <h3 className="FaeatureH3NewColection">{feature.title}</h3>
+                  <p className="FaeatureParagraph-NewColection">{feature.description}</p>
+                </div>
+                <div className='NewColecitonIMG' style={{ backgroundImage: `url(${feature.img})` }}></div>
+              </div>
+            ))}
+        </div>
+      </section>
     </>
   );
 };
