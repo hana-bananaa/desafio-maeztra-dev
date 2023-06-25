@@ -1,6 +1,5 @@
 import React from 'react';
 import NewColectionIMG from "../../assets/novacolecao.png"
-
 import "./styles.css";
 
 const NewColection = () => {

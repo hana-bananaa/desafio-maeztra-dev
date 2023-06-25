@@ -10,10 +10,12 @@ import SliderLogo from './components/SliderLogos/SliderLogos';
 import SliderShelf from "./components/SliderShelf/SliderShelf"
 import  NewColection from "./components/NewColection/NewColection"
 import Newsletter from "./components/NewsLetter/NewsLetter"
+import  Modal from "./components/Modal/Modal"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    < Modal/>
     <PreHeader/>
     <Header/>
     <CategoryHeader/>
