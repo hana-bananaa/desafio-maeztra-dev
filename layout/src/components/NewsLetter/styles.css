@@ -79,6 +79,10 @@
 }
 
 @media screen and (max-width: 1025px) {
+
+    .newsletter .newsletterSender .newsletterInput {
+        margin-left: 0px;
+    }
   .newsletter .newsletterContainer {
       flex-direction: column;
     }
@@ -87,6 +91,10 @@
       margin-bottom: 8px;
     }
 
+    .newsletter .newsletterSender {
+        margin-left: 0;
+        min-width: 83vw;
+    }
     .newsletterSender .newsletterInput {
       margin-left: 0;
       margin-right: 15px;
