@@ -10,11 +10,14 @@
     position: relative;
 }
 .slick-prev {
-    left: 10px; /* Ajuste o valor conforme necessário */
+    z-index: 99999 !important;
+    left: 59px  !important;;
+    height: 36px;
   }
   
   .slick-next {
-    right: 10px; /* Ajuste o valor conforme necessário */
+    right: 59px  !important; /* Ajuste o valor conforme necessário */
+    height: 36px;
   }
 .slider-section .slider-content {
     position: absolute;
