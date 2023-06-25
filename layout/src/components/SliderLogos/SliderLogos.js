@@ -66,11 +66,6 @@ const Sliderlogo = () => {
               <div className='containerFeatMob'>
                 <div className="logos" key={index}>
                   <img src={feature.icon} alt={feature.title}  className='iconslogosSlider' />
-
-                  <div className="complement">
-                    <h3 className="Faeature==H3">{feature.title}</h3>
-                    <p className="FaeatureParagraph">{feature.description}</p>
-                  </div>
               </div>
               </div>
             ))}
