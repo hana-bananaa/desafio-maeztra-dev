@@ -1,0 +1,71 @@
+@import url(../../styles/variables.css);
+
+.SliderShelf-container{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.colorsShelfSlider{
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  height: 28px;
+  margin-bottom:6px;
+}
+.colorsdiv{
+  width: 27px;
+  height: 27px;
+  border-radius: 5px;
+  margin-left: 3px;
+  background-color: bisque;
+}
+.colorsdiv:hover{
+background-color: rgba(0, 0, 0, 0.24);
+}
+
+.complementShelfSlider{
+  width: 80% !important;
+  height: 208px;
+  margin-top: 10px;
+  position: relative;
+}
+.normalButtonShelf{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--yellow-button);
+  height: 35px;
+  border: 0;
+  border-radius: 4px;
+  color: var(--color-white);
+  font-family: 'Titillium Web', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: ease-in 0.3s;
+}
+.normalButtonShelf:hover{
+  background-color: rgb(255, 187, 0);
+}
+.shelfPrice{
+  margin-top: 0;
+  font-size: 20px;
+  font-family: Titillium Web;
+  font-weight: 700;
+  height: 14px;
+  color:#353535
+}
+.FaeatureH3Shelf{
+  font-size: 16px;
+  font-family: Titillium Web;
+  font-weight: 600;
+  height: 14px;
+  margin-bottom: 8px;
+}
+.FaeatureParagraphShelf{  
+  font-size: 12px;
+  font-family: Titillium Web;
+  font-weight: 400;
+}
