@@ -61,7 +61,8 @@
     }
     .FaeatureParagraph{
       margin-top: 0;
-      width: 201px;
+      max-width: 201px;
+      min-width:139px;
       font-size: 12px;
     }
     .features-mobile-container{

@@ -2,6 +2,7 @@
 
 .SliderShelf-container{
   display: flex !important;
+  width: 95% !important;
   flex-direction: column !important;
   align-items: center !important;
 }
@@ -122,6 +123,11 @@
     background-color: #cfcfcd
     }
 
+
+.imgShelSlider{
+  width: 16.7vw;
+  height: auto;
+}
     @media screen and (max-width: 1025px) {
 
     
