@@ -1,24 +1,24 @@
 @import url(../../styles/variables.css);
 
-.logoss-maeztra-title{
+.logos-maeztra-title{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.logoss-maeztra-title h2{
+.logos-maeztra-title h2{
       display: flex;
       width: 80vw;
       max-width: 1562px;
       align-items: center;
       justify-content: center;
       font-family:'Titillium Web', sans-serif;
-      font-size: 16px;
+      font-size: 32px;
       font-weight: 700;
     }
 
-    .iconslogossSlider{
-      width: 32px !important;
-      height: 32px !important;
+    .iconslogosSlider{
+      width: 80%;
+      height: 64px;
       padding-right:30px;
     }
 
@@ -29,7 +29,6 @@
       justify-content: center;
       max-width: 308px;
       max-height: 64px;
-      background-color: #EFEFEF;
       border-radius: 4px;
       transition: ease-in 0.3s;
     }
@@ -40,16 +39,15 @@
       justify-content: center;
       max-width: 309px;
       max-height: 65px;
-      background-color: #d4d4d4;
       border-radius: 4px;
     }
-    .logoss-maeztra-container{
+    .logos-maeztra-container{
       display: flex;
       width: 100vw;
       justify-content: center;
     }
 
-    .logoss-maeztra-container .slick-initialized{
+    .logos-maeztra-container .slick-initialized{
       width: 88vw;
     }
     .FaeatureH3{
@@ -61,15 +59,15 @@
       margin-top: 0;
       font-size: 12px;
     }
-    .logoss-mobile-container{
+    .logos-mobile-container{
       display: none;
     }
 
     @media screen and (max-width: 1025px) {
-    .logoss-maeztra-container{
+    .logos-maeztra-container{
         display: none;
       }
-    .logoss-mobile-container{
+    .logos-mobile-container{
       display: block;
     }
     .logos{
@@ -80,7 +78,6 @@
       max-width: 308px;
       min-width: 88vw;
       max-height: 64px;
-      background-color: #EFEFEF;
       border-radius: 4px;
     }
     .containerFeatMob{
@@ -88,4 +85,21 @@
       width: 100% !important;
       justify-content: center;
     }
+
+    .logos-maeztra-title h2{
+      display: flex;
+      width: 80vw;
+      max-width: 1562px;
+      align-items: center;
+      justify-content: center;
+      font-family:'Titillium Web', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .iconslogosSlider{
+      width: 95vw;
+      height: auto;
+      padding-right:30px;
+    }
+
   }

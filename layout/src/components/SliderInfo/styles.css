@@ -19,7 +19,7 @@
     .iconsFeaturesSlider{
       width: 32px !important;
       height: 32px !important;
-      padding-right:30px;
+      padding-right:15px;
     }
 
     .feature{
@@ -28,6 +28,7 @@
       align-items: center;
       justify-content: center;
       max-width: 308px;
+      width:95% !important;
       max-height: 64px;
       background-color: #EFEFEF;
       border-radius: 4px;
@@ -54,11 +55,13 @@
     }
     .FaeatureH3{
       font-size: 14px;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
       font-weight: 700;
+    
     }
     .FaeatureParagraph{
       margin-top: 0;
+      width: 137px;
       font-size: 12px;
     }
     .features-mobile-container{

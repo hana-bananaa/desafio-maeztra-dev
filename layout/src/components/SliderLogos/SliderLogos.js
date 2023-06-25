@@ -45,13 +45,8 @@ const Sliderlogo = () => {
         <div className="logos-maeztra-container">
           <Slider {...settings}>
             {logos.map((feature, index) => (
-              <div className="feature" key={index}>
+              <div className="logos" key={index}>
                 <img src={feature.icon} alt={feature.title} className='iconslogosSlider' />
-
-                <div className="complement">
-                  <h3 className="FaeatureH3">{feature.title}</h3>
-                  <p className="FaeatureParagraph">{feature.description}</p>
-                </div>
               </div>
             ))}
           </Slider>
@@ -69,11 +64,11 @@ const Sliderlogo = () => {
           >
             {logos.map((feature, index) => (
               <div className='containerFeatMob'>
-                <div className="feature" key={index}>
+                <div className="logos" key={index}>
                   <img src={feature.icon} alt={feature.title}  className='iconslogosSlider' />
 
                   <div className="complement">
-                    <h3 className="FaeatureH3">{feature.title}</h3>
+                    <h3 className="Faeature==H3">{feature.title}</h3>
                     <p className="FaeatureParagraph">{feature.description}</p>
                   </div>
               </div>
