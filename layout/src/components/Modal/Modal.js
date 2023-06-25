@@ -39,20 +39,19 @@ const Modal = () => {
                       <img key={index} src={icon.src} alt={icon.alt} />
                     ))}
   
-                    <h2>Bem vindo à Maeztra</h2>
+                    <h2  className="modal-title">Bem vindo à Maeztra</h2>
                   </div>
   
-                  <div className="text">
-                    <p>
+                  <div className="modal-text">
+                    <p className="modal-text-p">
                       Receba em Primeira mão <br />
-                      <span>descontos e ofertas exclusivas</span>
+                      <span className="modal-text-span">descontos e ofertas exclusivas</span>
                     </p>
                   </div>
   
                   <form className="modal-form">
-                    <label className="sr-only" htmlFor="Newsletter">Digite seu email</label>
-                    <input type="email" name="" id="Newsletter" placeholder="Digite seu email" />
-                    <button className="search">
+                    <input  className="modal-form-input" type="email" name="" id="Newsletter" placeholder="Digite seu email" />
+                    <button className="modal-search search">
                       Enviar <img src={enviarIcon} alt="enviar" />
                     </button>
                   </form>
