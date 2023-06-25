@@ -110,6 +110,33 @@ const SliderShelf = () => {
         </div>
 
         <div className="features-mobile-container">
+        <Slider 
+        {...settings}
+        arrows={false}
+        dots={false}
+        slidesToShow={1} 
+        slidesToScroll={1}
+
+        className="mobile-slider"
+      >
+            {features.map((feature, index) => (
+              <div className="SliderShelf-container" key={index}>
+                <img src={feature.image} alt={feature.title} className='imgShelSlider' />
+                <div className="complementShelfSlider">
+                  <div class="colorsShelfSlider">
+                    <div class={feature.color1}></div>
+                    <div class={feature.color2}></div>
+                    <div class={feature.color3}></div>
+                    <div class={feature.color4}></div>
+                  </div>
+                  <h1 className="shelfPrice">{feature.price}</h1>
+                  <h3 className="FaeatureH3Shelf">{feature.title}</h3>
+                  <p className="FaeatureParagraphShelf">{feature.description}</p>
+                  <a href="/" className="normalButtonShelf">Adicionar</a>
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
       </section>
     </>
