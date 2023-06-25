@@ -1,0 +1,103 @@
+@import url(../../styles/variables.css);
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: #FAFAFA;
+  border: 2px solid #EFEFEF;
+  border-width: 2px 0;
+}
+
+.newsletter .newsletterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.newsletter .newsletterContainer h3 {
+  font-family:'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color:#000;
+}
+
+.newsletter .newsletterSender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+  border-radius: 4px;
+  min-width: 32vw;
+  position: relative;
+}
+
+.newsletter .newsletterSender .newsletterInput {
+  margin-left: 24px;
+  width: 100%;
+  background: transparent;
+  transition: 0.5s all ease-in-out;
+  outline: 0;
+  height: 100%;
+  font-family:'Titillium Web', sans-serif;
+  color: #1d1d1d;
+  background: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid #353535;
+  border-width: 1px 0 1px 1px;
+  padding: 0;
+  height: 38px;
+  border-radius: 4px;
+  padding-left: 24px;
+}
+
+.newsletter .newsletterSender .newsletterInput::placeholder {
+  font-family:'Titillium Web', sans-serif;
+  color: #1d1d1d;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.newsletter .newsletterSender .newsletterButton {
+  width: 120px;
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+}
+
+.newsletter .newsletterSender .newsletterButton:hover {
+  filter: brightness(95%);
+}
+
+@media screen and (max-width: 1025px) {
+  .newsletter .newsletterContainer {
+      flex-direction: column;
+    }
+
+    .newsletterContainer h3 {
+      margin-bottom: 8px;
+    }
+
+    .newsletterSender .newsletterInput {
+      margin-left: 0;
+      margin-right: 15px;
+      border: 1px solid #000; 
+      padding-left: 24px;
+      height: 24px;
+    }
+
+    .newsletterSender .newsletterButton {
+      width: 120px;
+      border-radius: 4px;
+      position: static;
+    }
+}

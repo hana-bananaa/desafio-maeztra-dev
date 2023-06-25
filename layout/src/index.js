@@ -9,6 +9,7 @@ import FeatureSlider from "../src/components/SliderInfo/SliderInfo"
 import SliderLogo from './components/SliderLogos/SliderLogos';
 import SliderShelf from "./components/SliderShelf/SliderShelf"
 import  NewColection from "./components/NewColection/NewColection"
+import Newsletter from "./components/NewsLetter/NewsLetter"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,5 +22,6 @@ root.render(
     <SliderLogo/>
     <SliderShelf/>
     <NewColection/>
+    <Newsletter/>
   </React.StrictMode>
 )

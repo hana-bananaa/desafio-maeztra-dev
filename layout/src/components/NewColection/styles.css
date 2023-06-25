@@ -3,6 +3,7 @@
 
 .featureNewColection{
   margin-top: 80px;
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap:20px;
