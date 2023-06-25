@@ -102,7 +102,7 @@ const SliderShelf = () => {
                   <h1 className="shelfPrice">{feature.price}</h1>
                   <h3 className="FaeatureH3Shelf">{feature.title}</h3>
                   <p className="FaeatureParagraphShelf">{feature.description}</p>
-                  <a href="/" className="normalButtonShelf">Comprar</a>
+                  <a href="/" className="normalButtonShelf">Adicionar</a>
                 </div>
               </div>
             ))}
