@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Documentação do Projeto - Desafio Maeztra Dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao projeto do Desafio Maeztra Dev! 😄 Este é um desafio proposto pela Maeztra como parte de um processo seletivo interno. Aqui você encontrará informações sobre o site desenvolvido, bem como os links relevantes para acessá-lo e executá-lo localmente.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+Este projeto consiste em um site desenvolvido em React, JavaScript e CSS. O objetivo do desafio era criar um site responsivo em versões mobile e desktop em apenas 3 dias. O site foi implementado seguindo as diretrizes propostas pela Maeztra.
 
-### `npm start`
+## Acesso ao Site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para acessar o site, clique no link abaixo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 [Desafio Maeztra Dev](https://vercel.com/hana-bananaa/desafio-maeztra-dev)
 
-### `npm test`
+## Repositório
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O código-fonte do projeto está disponível no seguinte repositório GitHub:
 
-### `npm run build`
+🔗 [GitHub - Desafio Maeztra Dev](https://github.com/hana-bananaa/desafio-maeztra-dev)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Executando Localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar o projeto localmente, siga as instruções abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório em sua máquina.
+2. No diretório do projeto, execute o seguinte comando:
 
-### `npm run eject`
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Isso iniciará o aplicativo no modo de desenvolvimento.
+   
+3. Abra [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o site.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Divirta-se explorando o Desafio Maeztra Dev! 🚀
