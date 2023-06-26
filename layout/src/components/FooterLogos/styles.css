@@ -28,3 +28,13 @@
     width: 32px;
     height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__container{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        background:  #353535;
+        height:233px;
+    }
+}
