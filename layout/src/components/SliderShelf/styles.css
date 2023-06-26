@@ -2,7 +2,7 @@
 
 .SliderShelf-container{
   display: flex !important;
-  width: 95% !important;
+  width: 100% !important;
   flex-direction: column !important;
   align-items: center !important;
 }

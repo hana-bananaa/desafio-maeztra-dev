@@ -1,0 +1,97 @@
+@import url(../../styles/variables.css);
+
+.accordionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordionGroup {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color:black;
+    font-family: Titillium Web;
+}
+
+.accordionChildrens {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 8px 0;
+    font-family: Titillium Web;
+}
+
+footer .firstRow .accordionChildren {
+    padding: 6px 0;
+}
+
+.firstRow .mobile{
+    max-width: 85vw;
+}
+.firstRowFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.firstColumn, .secondColumn, .thirdColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstColumn a, .secondColumn a, .thirdColumn a{
+    font-size: 12px;
+    font-family: Titillium Web;
+    line-height: 18px;
+    font-weight: 400;
+    color:#000 ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 24px;
+}
+
+.firstColumn h3, .secondColumn h3, .thirdColumn h3{
+    font-size: 16px;
+    font-family: Titillium Web;
+    line-height: 18px;
+    font-weight: 700;
+    color:#000 ;
+    text-decoration: none;
+    height: auto;
+    margin-top: 43px;
+    margin-bottom: 25px;
+}
+
+.firstColumn a:hover, .secondColumn a:hover, .thirdColumn a:hover{
+    font-size: 13px;
+    font-family: Titillium Web;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .firstRowAccordion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-top: 37px;
+        padding-bottom: 50px;
+    }
+    .firstColumn, .secondColumn, .thirdColumn{
+        width: 85vw;
+    }
+    .accordionChildren{
+        color: rgb(17, 17, 17);
+        font-size: 12px;
+        margin-top:5px;
+    }
+    .accordionChildrens {
+        padding: 0px;
+    }
+}
