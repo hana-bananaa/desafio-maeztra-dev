@@ -11,6 +11,7 @@ import SliderShelf from "./components/SliderShelf/SliderShelf"
 import  NewColection from "./components/NewColection/NewColection"
 import Newsletter from "./components/NewsLetter/NewsLetter"
 import  Modal from "./components/Modal/Modal"
+import FooterLogos from "./components/FooterLogos/FooterLogos"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,5 +26,6 @@ root.render(
     <SliderShelf/>
     <NewColection/>
     <Newsletter/>
+    <FooterLogos/>
   </React.StrictMode>
 )

@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import comma from '../../assets/comma.svg';
 import melissa from '../../assets/melissa.svg';
 import forever21 from '../../assets/forever21.svg';
-import  zara from '../../assets/zara.svg';
+import zara from '../../assets/zara.svg';
 import anntaylor from '../../assets/anntaylor.svg';
 import "./styles.css";
 
@@ -65,8 +65,8 @@ const Sliderlogo = () => {
             {logos.map((feature, index) => (
               <div className='containerFeatMob'>
                 <div className="logos" key={index}>
-                  <img src={feature.icon} alt={feature.title}  className='iconslogosSlider' />
-              </div>
+                  <img src={feature.icon} alt={feature.title} className='iconslogosSlider' />
+                </div>
               </div>
             ))}
           </Slider>

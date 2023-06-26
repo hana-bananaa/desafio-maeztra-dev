@@ -79,13 +79,13 @@ const FeatureSlider = () => {
             {features.map((feature, index) => (
               <div className='containerFeatMob'>
                 <div className="feature" key={index}>
-                  <img src={feature.icon} alt={feature.title}  className='iconsFeaturesSlider' />
+                  <img src={feature.icon} alt={feature.title} className='iconsFeaturesSlider' />
 
                   <div className="complement">
                     <h3 className="FaeatureH3">{feature.title}</h3>
                     <p className="FaeatureParagraph">{feature.description}</p>
                   </div>
-              </div>
+                </div>
               </div>
             ))}
           </Slider>

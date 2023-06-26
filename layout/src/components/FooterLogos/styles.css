@@ -1,0 +1,30 @@
+@import url(../../styles/variables.css);
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:  #353535;
+    height:85px;
+}
+.copyright, .payment-methods, .networking{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright-wrapper h4{
+    color: var(--color-5500, #FFF);
+    font-size: 10px;
+    font-weight: 200;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.payment-methods img{
+    width: 32px;
+    height: 25px;
+}

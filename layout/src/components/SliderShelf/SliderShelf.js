@@ -59,15 +59,15 @@ const SliderShelf = () => {
       color4: "colorsdiv blue-color"
     },
     {
-    image: Photo2,
-    price: 'R$ 320,00',
-    title: 'Ruched Rose Print Mini Skirt',
-    description: 'A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.',
-    color1: "colorsdiv black-color",
-    color2: "colorsdiv pinkdark-color",
-    color3: "colorsdiv sand-color",
-    color4: "colorsdiv white-color"
-  },
+      image: Photo2,
+      price: 'R$ 320,00',
+      title: 'Ruched Rose Print Mini Skirt',
+      description: 'A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.',
+      color1: "colorsdiv black-color",
+      color2: "colorsdiv pinkdark-color",
+      color3: "colorsdiv sand-color",
+      color4: "colorsdiv white-color"
+    },
   ];
   const settings = {
     dots: false,
@@ -77,8 +77,8 @@ const SliderShelf = () => {
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
-    prevArrow: <img src={SliderLeft} alt="Arrow Left" className="ArrowLeftShelf"/>,
-    nextArrow: <img src={SliderRight} alt="Arrow Right"  className="ArrowRightShelf"/>,
+    prevArrow: <img src={SliderLeft} alt="Arrow Left" className="ArrowLeftShelf" />,
+    nextArrow: <img src={SliderRight} alt="Arrow Right" className="ArrowRightShelf" />,
   };
 
   return (
@@ -110,15 +110,15 @@ const SliderShelf = () => {
         </div>
 
         <div className="features-mobile-container">
-        <Slider 
-        {...settings}
-        arrows={false}
-        dots={false}
-        slidesToShow={1} 
-        slidesToScroll={1}
+          <Slider
+            {...settings}
+            arrows={false}
+            dots={false}
+            slidesToShow={1}
+            slidesToScroll={1}
 
-        className="mobile-slider"
-      >
+            className="mobile-slider"
+          >
             {features.map((feature, index) => (
               <div className="SliderShelf-container" key={index}>
                 <img src={feature.image} alt={feature.title} className='imgShelSlider' />

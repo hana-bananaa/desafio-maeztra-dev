@@ -30,7 +30,7 @@ const CategoryHeader = () => {
         <MenuItem item="Lingerie" src="" />
         <MenuItem item="Acessórios" src="" />
         <MenuItem item="OUTLET" src="" />
-        </div>
+      </div>
     </section>
   );
 };
