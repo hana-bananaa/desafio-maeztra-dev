@@ -75,6 +75,9 @@ footer .firstRow .accordionChildren {
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
+    .firstRowFooter{
+        display: none;
+    }
     .firstRowAccordion {
         display: flex;
         flex-direction: column;
