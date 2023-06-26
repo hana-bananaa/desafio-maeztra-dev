@@ -13,7 +13,7 @@ Este projeto consiste em um site desenvolvido em React, JavaScript e CSS. O obje
 
 Para acessar o site, clique no link abaixo:
 
-🔗 [Desafio Maeztra Dev](https://vercel.com/hana-bananaa/desafio-maeztra-dev)
+🔗 [Desafio Maeztra Dev](https://desafio-maeztra-dev.vercel.app/)
 
 ## Repositório
 
