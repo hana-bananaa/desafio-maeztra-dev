@@ -79,7 +79,9 @@
 }
 
 @media screen and (max-width: 1025px) {
-
+    .newsletter{
+      padding-bottom: 24px;
+    } 
     .newsletter .newsletterSender .newsletterInput {
         margin-left: 0px;
     }
